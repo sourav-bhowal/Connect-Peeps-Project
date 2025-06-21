@@ -3,6 +3,7 @@ import { useSession } from "../SessionProvider";
 import { useEffect, useState } from "react";
 import { kyInstance } from "@/utils/ky";
 
+// CHAT CLIENT INITIALIZE HOOK
 export default function useInitializeChatClient() {
   // get user
   const { user: loggedInUser } = useSession();
