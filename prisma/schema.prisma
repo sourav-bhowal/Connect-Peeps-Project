@@ -1,7 +1,7 @@
 // PRISMA CLIENT GENERATOR
 generator client {
   provider        = "prisma-client-js"
-  previewFeatures = ["fullTextSearch"]
+  previewFeatures = ["fullTextSearchPostgres"]
 }
 
 // PRISMA DATABASE SOURCE 
